@@ -1,0 +1,48 @@
+body {
+    background-color: #00c787;
+    display: flex;
+    justify-content: center;
+}
+.allview{
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.inputview{
+    display: flex;
+    outline: none;
+}
+.userinput{
+    flex-grow: 1;
+}
+.newlist{
+    background-color: #00c787;
+    border-radius: 5px;
+    border: none;
+    color:white;
+    padding: 10px 15px;
+}
+.userlist{
+    list-style-type: none;
+    padding: 0;
+}
+.userlist li{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.userlist label{
+    flex-grow: 1;
+}
+.checkbox1{
+    margin-right: 15px;
+}
+.delete1{
+    opacity: 0.5;
+}
+.delete1 :hover{
+    opacity: 1;
+}
